@@ -7,20 +7,24 @@
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
-          <li>
+          <!--<li>
             {% if site.author %}
               {{ site.author | escape }}
             {% else %}
               {{ site.title | escape }}
             {% endif %}
             </li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>-->
+          <li>
+          <img src="{{ full_base_url }}/001.png">&nbsp;
+          <span style="font-size:large;">Cyber Person</span>
+          </li>
         </ul>
       </div>
 
       <div class="footer-col footer-col-2">
         <ul class="social-media-list">
-          {% if site.github_username %}
+          <!--{% if site.github_username %}
           <li>
             {% include icon-github.html username=site.github_username %}
           </li>
@@ -30,7 +34,11 @@
           <li>
             {% include icon-twitter.html username=site.twitter_username %}
           </li>
-          {% endif %}
+          {% endif %}-->
+          <li>
+          <a href="mailto:{{ site.email }}"><img src="{{ full_base_url }}/mailto.png" width="47px"></a>&nbsp;
+          <a href="xmpp:{{ site.xmpp }}"><img src="{{ full_base_url }}/xmpp.png" width="47px"></a>
+          </li>
         </ul>
       </div>
 
