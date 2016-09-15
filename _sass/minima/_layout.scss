@@ -235,3 +235,16 @@
         }
     }
 }
+
+/* Блок рекламы */
+.adblock {width:100%;}
+.lblock {float:left;width:50%;min-width:350px;text-align:left;}
+.rblock {float:right;width:50%;min-width:350px;text-align:left;}
+@include media-query($on-laptop) {
+	.lblock {float:left;width:50%;text-align:left;}
+	.rblock {width:50%;text-align:left;}
+}
+@include media-query($on-palm) {
+	.lblock {float:left;width:50%;text-align:left;}
+	.rblock {width:50%;text-align:left;}
+}

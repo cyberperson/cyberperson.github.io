@@ -6,6 +6,7 @@
 
   <title>{% if page.title %}{{ page.title | escape }} на {{ site.title | escape }}'е{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+  <meta name="adbit-site-verification" content="36180aff9ea5bb1a9385ea368a29f09a0af63204802818037513d481ce8d999a"/>
 
   {% assign custom_url = site.url | append: site.baseurl %}
   {% assign full_base_url = site.github.url | default: custom_url %}
