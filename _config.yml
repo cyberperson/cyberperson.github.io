@@ -18,9 +18,10 @@ author: Cyber Person
 email: cyberperson@protonmail.com
 xmpp: cyberperson@swissjabber.ch
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+ Блог о блоге, о том, как я его строю, а ещё о Linux'е, Bitcoin'е, о свободном программном
+ обеспечении, об интернете, обо всём том, что связано с IT и так или иначе
+ присутствует в моей жизни. Так же этот блог о том, как я с его помощью,
+ пытаюсь навести порядок в своей голове и изменить свою жизнь.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://localhost:4000" # the base hostname & protocol for your site
 twitter_username: cyberperson
