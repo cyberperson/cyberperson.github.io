@@ -13,6 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+keywords: >
+ блог начинающего блоггера, блог о создании блога, блог о блоге,
+ блог не блоггера, блог о Jekyll, блог о Bitcoin, блог о linux, блог на GitHub,
+ блог на Jekyll и Github
 title: Cyber Person Blog
 author: Cyber Person
 email: cyberperson@protonmail.com
